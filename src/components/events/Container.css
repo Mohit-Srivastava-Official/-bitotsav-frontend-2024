@@ -1,0 +1,42 @@
+.cyberpunk-container {
+	padding: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+	clip-path: polygon(
+		0px 25px,
+		26px 0px,
+		calc(60% - 25px) 0px,
+		60% 25px,
+		100% 25px,
+		100% calc(100% - 10px),
+		calc(100% - 15px) calc(100% - 10px),
+		calc(80% - 10px) calc(100% - 10px),
+		calc(80% - 15px) calc(100% - 0px),
+		10px calc(100% - 0px),
+		0% calc(100% - 10px)
+	);
+	background-color: #663399;
+	max-width: calc(100% - 10px);
+	transition: all 0.07s ease-in-out;
+}
+
+.cyberpunk-container:hover {
+	/* cursor: pointer; */
+	/* background-color: mediumpurple; */
+	transform: scale(1.02) translateY(-2px);
+}
+
+.custom-heading-event {
+	font-family: "Bebas Neue", sans-serif !important;
+}
+
+.custom-cbc {
+	/* border-radius: 20px; */
+	box-shadow: 0px 0px 12px 0.5px #b770ff;
+	transition: all 0.07s ease-in-out;
+}
+
+.custom-cbc:hover {
+	transform: scale(1.02) translateY(-2px);
+}

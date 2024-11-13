@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;500;600&display=swap");
+
+body {
+	font-family: "Lato", "sans-serif";
+	background-color: #ccc9e7;
+	color: #2e3138;
+	-ms-overflow-style: none;
+	overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+	width: 4px !important; /* Add !important */
+	height: 0px !important; /* Add !important */
+}
+
+body::-webkit-scrollbar-track {
+	background-color: #222222 !important; /* Add !important */
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #4c4c4c !important; /* Add !important */
+	border-radius: 4px !important; /* Add !important */
+}
+
+.contain {
+	height: 100vh;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* HOME PAGE CSS */
+
+#home {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-image: url("http://localhost:3000/assets/background/undraw_amusement_park_17oe.svg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.home-ka-info {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.home-ka-info h1 {
+	margin: 0;
+	font-size: 70px;
+}
+
+.home-ka-info p {
+	font-size: 20px;
+}
+
+.butt {
+	font-size: 20px;
+	font-weight: 700;
+	border: 2px solid #2e3138;
+	border-radius: 50px;
+	padding: 10px 25px;
+	color: white;
+	background-color: #2e3138;
+}
+.stats {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.stats div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: Texta-Heavy, sans-serif;
+	line-height: 19px;
+	color: #11567f;
+	text-transform: uppercase;
+}
+.stats span {
+	font-size: 30px;
+	/* font-weight: 600; */
+	align-self: center;
+	color: #2e3138;
+	font-weight: 700;
+}
+.hat {
+	display: none;
+}
+.mob-stats {
+	display: none;
+}
+
+@media screen and (max-width: 800px) {
+	#home {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.home-ka-info {
+		width: 80%;
+	}
+	.hata {
+		display: none;
+	}
+	.hat {
+		display: block;
+	}
+	.home-ka-info h1 {
+		font-size: 50px;
+	}
+	.home-ka-info h2 {
+		font-size: 20px;
+	}
+	.mob-stats span {
+		font-size: 25px;
+	}
+	.mob-stats h2 {
+		font-size: 15px;
+	}
+	.stats {
+		display: none;
+	}
+	.mob-stats {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.stat-wrapper {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		width: 100%;
+	}
+	.stat-wrapper div {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-family: Texta-Heavy, sans-serif;
+		line-height: 19px;
+		color: #11567f;
+		text-transform: uppercase;
+	}
+	.stat-wrapper span {
+		color: #2e3138;
+		font-weight: 700;
+	}
+}
+
+/* CONTACT PAGE CSS */
+
+/* #contact{
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    color: white;
+    background-color: #000000;
+} */
+
+.feedback {
+	padding: 20px;
+}
+.feedback .form {
+	width: auto;
+	padding: 30px;
+}
+
+.links {
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+}
+.linkedlist {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.link {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.link a {
+	color: white;
+	text-decoration: none;
+	/* font-family: "Lato"; */
+	display: flex;
+	align-items: center;
+	/* font-weight: 600; */
+}
+
+.link-button {
+	color: "#00f0ff";
+}
+
+@media screen and (max-width: 800px) {
+	html {
+		overflow-x: hidden;
+	}
+	#contact {
+		flex-direction: column;
+	}
+	.links {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	.social h2 {
+		text-align: center;
+	}
+	.media {
+		flex-direction: row;
+	}
+}

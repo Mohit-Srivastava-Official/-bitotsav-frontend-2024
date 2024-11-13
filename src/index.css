@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "Blender-Regular";
+	src: url("../public/assets/BlenderPro-Book.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Blender-Medium";
+	src: url("../public/assets/BlenderPro-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Blender-Bold";
+	src: url("../public/assets/BlenderPro-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Blender-Heavy";
+	src: url("../public/assets/BlenderPro-Heavy.ttf") format("truetype");
+}
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.css-1yhpg23-MuiTableCell-root {
+	font-family: "Blender-Regular";
+}
+
+/* .css-ympka7-MuiButtonBase-root-MuiTab-root {
+	font-family: "Blender-Heavy" !important;
+} */
+
+.table-header {
+	font-family: "Blender-Bold" !important;
+	font-size: 18px !important;
+}
+
+.css-ympka7-MuiButtonBase-root-MuiTab-root.Mui-selected {
+	color: white !important;
+}
+
+.css-ympka7-MuiButtonBase-root-MuiTab-root {
+	color: #8e8e8e !important;
+}
+
+.css-heg063-MuiTabs-flexContainer {
+	align-items: center !important;
+	justify-content: center !important;
+}
+
+.css-c4znkq.Mui-selected {
+	color: white !important;
+}
+
+.css-10hburv-MuiTypography-root,
+.css-jhxcso-MuiButtonBase-root-MuiListItemButton-root {
+	display: flex !important;
+	justify-content: center !important;
+}
+
+.css-c4znkq {
+	display: inline-flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+	background-color: transparent;
+	outline: 0px;
+	border: 0px;
+	margin: 0px;
+	border-radius: 0px;
+	cursor: pointer;
+	user-select: none;
+	vertical-align: middle;
+	appearance: none;
+	text-decoration: none;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	font-size: 0.875rem;
+	line-height: 1.25;
+	letter-spacing: 0.02857em;
+	text-transform: uppercase;
+	max-width: 360px;
+	min-width: 90px;
+	position: relative;
+	min-height: 48px;
+	flex-shrink: 0;
+	padding: 12px 16px;
+	overflow: hidden;
+	white-space: normal;
+	text-align: center;
+	flex-direction: column;
+	color: #8e8e8e !important;
+}
+.css-heg063-MuiTabs-flexContainer {
+	align-items: center !important;
+	justify-content: center !important;
+}
+.css-k008qs {
+	display: flex;
+	align-items: center !important;
+	justify-content: center !important;
+}
+
+.swiper {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+	width: 300px;
+	height: 500px;
+}
+
+.swiper-slide img {
+	display: block;
+	width: 50%;
+	height: 50%;
+}
+
+.css-j1x5h8-MuiPaper-root-MuiDrawer-paper {
+	background-color: #dbdbf4 !important;
+}
+
+.dashboard-link .active {
+	background-color: black;
+}
+
+.css-fikjyc-MuiTableCell-root-MuiTablePagination-root {
+	overflow-x: hidden !important;
+}

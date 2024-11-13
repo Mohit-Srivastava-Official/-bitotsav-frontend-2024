@@ -1,0 +1,41 @@
+.custom-h1-decor {
+  font-size: 85px !important;
+  font-family: "Bebas Neue", sans-serif !important;
+  letter-spacing: 9px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .custom-grid {
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 55px;
+  }
+  .custom-h1-decor {
+    font-size: 70px !important;
+    letter-spacing: 6px;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 1250px) {
+  .custom-grid {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}
+
+.custom-name {
+  font-family: "Blender-Regular" !important;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  letter-spacing: 6px;
+}
+@media (max-width: 395px) {
+  .custom-heading-event {
+    font-size: 3.5rem !important;
+  }
+}
+.custom-shadow-effect:hover {
+  box-shadow: 0px 0px 15px 0px white;
+}

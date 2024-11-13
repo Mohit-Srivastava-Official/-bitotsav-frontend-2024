@@ -1,0 +1,58 @@
+.swiper {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  background-color: transparent !important;
+  width: 600px;
+  height: auto;
+}
+.swiper-slide {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
+
+.custom-heading-artist {
+  font-family: "Bebas Neue", sans-serif;
+  color: #a855f7;
+}
+
+@media screen and (max-width: 600px) {
+  .swiper-slide {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .swiper-slide {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .swiper-slide {
+    width: 320px;
+  }
+}
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+@media (max-width: 500px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block !important;
+    color: white !important;
+    font-size: 10px !important;
+    top: var(--swiper-navigation-top-offset, 35%) !important;
+  }
+}

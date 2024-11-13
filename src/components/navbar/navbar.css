@@ -1,0 +1,117 @@
+.webnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    transition: all 0.125s;
+    padding: 1rem;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: #2E3138;
+    font-weight: 700;
+    padding: 1rem 2rem;
+}
+
+.drawer{
+    display: none;
+    position: fixed;
+}
+
+.logo img{
+    height: 70px;
+    color: #2E3138;
+    object-fit: contain;
+}
+
+.side-wrap{
+    position: fixed;
+    z-index: 1;
+    height: 50%;
+    top: 25%;
+    right: 0;
+}
+.side-nav{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-nav a{
+    color: #2E3138;
+}
+
+.reg{
+    border: 2px solid #2E3138;
+    border-radius: 30px;
+    background-color: #2E3138;
+}
+
+.scroll-down{
+    opacity: 0;
+    display: none;
+}
+.scroll-down-mob{
+    opacity: 0;
+    display: none;
+}
+
+.scroll-up{
+    opacity: 1;
+    display: flex;
+    background-color: white;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.scroll-up-mob{
+    opacity: 1;
+    display: flex;
+    background-color: white;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 800px) {
+    .webnav{
+        display: none;
+    }
+    .drawer{
+        display: block;
+        padding: 1rem;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .side-nav{
+        display: none;
+    }
+    .logo img{
+        height: 50px;
+    }
+    .drawer{
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+    }
+}
+
+.nav-link-drawer{
+    text-decoration: none;
+    color: black;
+    align-self: center;
+}
+
+.drawer-list{
+    align-items: center;
+}
+
+/* bottom navigation css */
+

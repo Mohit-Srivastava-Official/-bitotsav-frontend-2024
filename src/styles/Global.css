@@ -1,0 +1,8 @@
+.custom-scroll::-webkit-scrollbar {
+	width: 0px !important; /* Add !important */
+	height: 0px !important; /* Add !important */
+}
+
+.custom-heading-soon {
+	font-family: "Bebas Neue", sans-serif;
+}

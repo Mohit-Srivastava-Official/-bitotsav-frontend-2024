@@ -1,0 +1,48 @@
+@import "../../../styles/landing.scss";
+
+.navbar {
+	height: 100px;
+
+	.wrapper {
+		// font-family: "Bebas Neue", sans-serif !important;
+		// background-color: black;
+		max-width: 1366px;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: 100%;
+
+		@include mobile {
+			justify-content: flex-end;
+			padding: 20px;
+		}
+		.logo img {
+			height: 48px;
+			color: #ffffff;
+			object-fit: contain;
+			position: absolute;
+			top: 30px;
+			right: 30px;
+
+			@include mobile {
+				top: 25px;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+		}
+		span {
+			font-weight: bold;
+		}
+
+		.social {
+			display: flex;
+			gap: 20px;
+
+			img {
+				width: 60px;
+				height: 50px;
+			}
+		}
+	}
+}

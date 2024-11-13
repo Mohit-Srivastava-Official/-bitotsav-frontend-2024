@@ -1,0 +1,21 @@
+.heading {
+	color: black;
+	font-size: 50px;
+	font-family: "Bebas Neue", sans-serif !important;
+}
+
+.subheading {
+	font-family: "Blender-Medium";
+	color: black;
+	font-size: 35px;
+}
+
+@media screen and (max-width: 600px) {
+	.subheading {
+		font-size: 24px;
+	}
+}
+
+.box-cc {
+	box-shadow: 0px 0px 8px 1px #663399;
+}

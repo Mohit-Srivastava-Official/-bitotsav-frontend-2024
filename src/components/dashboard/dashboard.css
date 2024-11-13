@@ -1,0 +1,64 @@
+.dashboard-link {
+	display: flex;
+	color: black;
+	text-decoration: none;
+}
+.dashboard {
+	margin-left: 300px;
+	height: 100vh;
+}
+.user-name {
+	font-size: 50px;
+}
+.info {
+	width: 100%;
+	height: 100vh;
+	/* background-position: center; */
+	/* background-repeat: no-repeat; */
+	/* background-size: 80% 100%; */
+}
+.other-info {
+	width: 50%;
+	margin: auto;
+}
+.mobile-dash {
+	display: none;
+}
+.team {
+	width: 100%;
+	height: 100vh;
+	/* background-position: center; */
+	background-repeat: no-repeat;
+	background-size: 70% 100%;
+}
+
+@media screen and (max-width: 800px) {
+	.web-drawer {
+		display: none;
+	}
+	.user-name {
+		font-size: 25px;
+	}
+	.dashboard {
+		margin-left: 10px;
+	}
+	.other-info h1 {
+		font-size: 20px;
+	}
+	.mobile-dash {
+		display: block;
+	}
+	.info {
+		height: 50vh;
+		background-position: center;
+	}
+	.team {
+		background-position: center;
+		background-size: contain;
+		height: 50vh;
+	}
+}
+
+.custom-heading-dashboard {
+	font-family: "Bebas Neue", sans-serif !important;
+}
